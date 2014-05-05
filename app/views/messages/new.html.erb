@@ -1,0 +1,62 @@
+<html>
+<link rel="icon" 
+      type="image/ico" 
+      href="logo.ico">
+	<body>
+	<div id="menu-wrapper">
+		<div id="menu">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/reviews">Reviews</a></li>
+				<li><a href="/repairs">Services</a></li>
+				<li class="current_page_item"><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+	<%= render 'layouts/header' %>
+	<div id="wrapper">
+		<!-- end #header -->
+		<div id="page">
+			<div id="page-bgtop">
+				<div id="page-bgbtm">
+					<div id="content">
+						<div class="post">
+							<div style="clear: both;">&nbsp;</div>
+							<div class="entry">
+								<%= form_for Message.new do |f| %>
+									<%= f.label :name %><br>
+									<%= f.text_field :name %><br>
+									<%= f.label :phone_number %><br>
+									<%= f.text_field :phone_number %><br>
+									<%= f.label :message %><br>
+									<%= f.text_area :message %><br>
+									<%= f.submit %>
+								<% end %>
+							</div>
+						</div>
+					</div>
+					<!-- end #content -->
+					<div id="sidebar">
+						<ul>
+							<li>
+								<h2>Contact Us</h2>
+								<ul>
+									<li><b>Todd Blevins</b><br>Owner/Operator</li>
+									<li>555 Hobart Ave<br>
+											Palm Bay, FL 32907</li>
+									<li><a href="mailto:tblevins004@cfl.rr.com" target="_blank">tblevins004@cfl.rr.com</a></li>
+									<li>(321) 914-8235</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<!-- end #sidebar -->
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+			</div>
+		</div>
+		<!-- end #page -->
+	</div>
+	<%= render 'layouts/footer' %>
+	<!-- end #footer -->
+	</body>
+</html>

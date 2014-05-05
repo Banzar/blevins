@@ -1,0 +1,20 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1399263652.9988706:@value{I"
+class:ETI"StaticAsset;
+FI"id;
+TI"%e28e5b1cf4d4bbc891c488e68e978da5;
+FI"logical_path;
+TI"img02.gif;
+TI"pathname;
+TI"&$root/app/assets/images/img02.gif;
+FI"content_type;
+TI"image/gif;
+TI"
+mtime;
+TI"2014-05-04T23:35:38-04:00;
+TI"length;
+TI"76;
+FI"digest;
+TI"%ed761172571ff7df157decb8090cf4a6;
+FI"_version;
+TI"%46dde6621c301f4928e3b34efee9e3b5;
+F
